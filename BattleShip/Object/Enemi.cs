@@ -9,21 +9,68 @@ namespace BattleShip.Object
 {
     public class Enemi
     {
+        public int type;
+        public Image eImage;
         public Point p;
         public int wi, he;
         public int speed;
-        public Enemi(int px, int py, int wi,int he)
+        public int HP;
+        public  Enemi(int px, int py)
         {
-            Random rd = new Random();
             this.p.X = px;
             this.p.Y = py;
-            this.he=he;
-            this.wi = wi;
-            this.speed = rd.Next(2, 9);
-           
+         
         }
       
       
     }
-   
+    public class Enemi01 : Enemi
+    {
+        public Enemi01(int px,int py):base(px,py) {
+            wi = 40;
+            he = 40;
+            speed = 20 ;
+            HP = 40;
+            type = 2;
+        }
+
+       
+    }
+    public class Enemi02 : Enemi
+    {
+        public Enemi02(int px, int py) : base(px, py)
+        {
+            wi = 40;
+            he = 20;
+            speed = 5;
+            HP = 20;
+            type = 1;
+        }
+
+
+    }
+    public class Enemi03 : Enemi
+    {
+        public Enemi03(int px, int py) : base(px, py)
+        {
+            wi = 50;
+            he = 30;
+            speed = 7;
+            HP = 100;
+            type = 3;
+        }
+
+
+    }
+    public class Boss01 : Enemi
+    {
+        public Boss01(int px, int py) : base(px, py)
+        {
+            wi = 80;
+            he = 2080;
+            speed = 1;
+            HP = 2000;
+        }
+    }
+
 }
