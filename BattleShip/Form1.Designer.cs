@@ -42,6 +42,7 @@
             this.scoreRec_lb = new System.Windows.Forms.Label();
             this.introduce_lb = new System.Windows.Forms.Label();
             this.close_Intro_lb = new System.Windows.Forms.Label();
+            this.your_score_lb = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // score_lb
@@ -182,9 +183,9 @@
             this.scoreRec_lb.BackColor = System.Drawing.Color.Transparent;
             this.scoreRec_lb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.scoreRec_lb.Font = new System.Drawing.Font("Elephant", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scoreRec_lb.Location = new System.Drawing.Point(175, 372);
+            this.scoreRec_lb.Location = new System.Drawing.Point(121, 372);
             this.scoreRec_lb.Name = "scoreRec_lb";
-            this.scoreRec_lb.Size = new System.Drawing.Size(256, 46);
+            this.scoreRec_lb.Size = new System.Drawing.Size(205, 46);
             this.scoreRec_lb.TabIndex = 12;
             this.scoreRec_lb.Text = "Your score: ";
             this.scoreRec_lb.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -198,7 +199,7 @@
             this.introduce_lb.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.introduce_lb.Location = new System.Drawing.Point(96, 135);
             this.introduce_lb.Name = "introduce_lb";
-            this.introduce_lb.Size = new System.Drawing.Size(439, 365);
+            this.introduce_lb.Size = new System.Drawing.Size(439, 390);
             this.introduce_lb.TabIndex = 14;
             this.introduce_lb.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.introduce_lb.Visible = false;
@@ -219,6 +220,18 @@
             this.close_Intro_lb.Visible = false;
             this.close_Intro_lb.Click += new System.EventHandler(this.close_Intro_lb_Click);
             // 
+            // your_score_lb
+            // 
+            this.your_score_lb.BackColor = System.Drawing.Color.Transparent;
+            this.your_score_lb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.your_score_lb.Font = new System.Drawing.Font("Elephant", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.your_score_lb.Location = new System.Drawing.Point(368, 372);
+            this.your_score_lb.Name = "your_score_lb";
+            this.your_score_lb.Size = new System.Drawing.Size(161, 46);
+            this.your_score_lb.TabIndex = 16;
+            this.your_score_lb.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.your_score_lb.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -226,6 +239,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(582, 786);
+            this.Controls.Add(this.your_score_lb);
             this.Controls.Add(this.close_Intro_lb);
             this.Controls.Add(this.introduce_lb);
             this.Controls.Add(this.scoreRec_lb);
@@ -266,6 +280,7 @@
         private System.Windows.Forms.Label scoreRec_lb;
         private System.Windows.Forms.Label introduce_lb;
         private System.Windows.Forms.Label close_Intro_lb;
+        private System.Windows.Forms.Label your_score_lb;
     }
 }
 

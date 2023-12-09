@@ -468,9 +468,10 @@ namespace BattleShip
        
         private void loose()
         {
-            scoreRec_lb.Text += score.ToString();
+            your_score_lb.Text = score.ToString();
             start_lb.Visible = true;
             scoreRec_lb.Visible = true;
+            your_score_lb.Visible = true;
             oop_lb.Visible=true;
             pause_lb.Enabled = false;
         }
@@ -483,8 +484,8 @@ namespace BattleShip
             score = 0;
             start_lb.Visible = false;
             scoreRec_lb.Visible = false;
+            your_score_lb.Visible = false;
             oop_lb.Visible =false;
-            scoreRec_lb.Text = "Your score: ";
             enemi_list.Clear();
             bullet_list.Clear();
             explosion_list.Clear();
