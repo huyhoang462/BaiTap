@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace baitap_trenlop
+namespace MDI_TEST
 {
     internal static class Program
     {

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("baitap_trenlop")]
+[assembly: AssemblyTitle("MDI_TEST")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("baitap_trenlop")]
+[assembly: AssemblyProduct("MDI_TEST")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c9e75990-82ab-4a9a-8ba5-5e6034961806")]
+[assembly: Guid("66cd1b33-8893-4f8f-a384-c407c91539f1")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace baitap_trenlop.Properties
+namespace MDI_TEST.Properties
 {
 
 

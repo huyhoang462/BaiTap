@@ -1,7 +1,4 @@
-﻿using System.Windows.Forms;
-using System;
-
-namespace baitap_trenlop
+﻿namespace MDI_TEST
 {
     partial class Form1
     {
@@ -36,7 +33,7 @@ namespace baitap_trenlop
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form1";
         }
-        
+
         #endregion
     }
 }

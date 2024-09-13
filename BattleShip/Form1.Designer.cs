@@ -197,9 +197,9 @@
             this.introduce_lb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.introduce_lb.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introduce_lb.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.introduce_lb.Location = new System.Drawing.Point(96, 135);
+            this.introduce_lb.Location = new System.Drawing.Point(76, 69);
             this.introduce_lb.Name = "introduce_lb";
-            this.introduce_lb.Size = new System.Drawing.Size(439, 390);
+            this.introduce_lb.Size = new System.Drawing.Size(439, 534);
             this.introduce_lb.TabIndex = 14;
             this.introduce_lb.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.introduce_lb.Visible = false;
@@ -211,7 +211,7 @@
             this.close_Intro_lb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.close_Intro_lb.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close_Intro_lb.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.close_Intro_lb.Location = new System.Drawing.Point(208, 536);
+            this.close_Intro_lb.Location = new System.Drawing.Point(228, 597);
             this.close_Intro_lb.Name = "close_Intro_lb";
             this.close_Intro_lb.Size = new System.Drawing.Size(165, 56);
             this.close_Intro_lb.TabIndex = 15;
