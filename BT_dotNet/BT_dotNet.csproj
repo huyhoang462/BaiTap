@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7CDD4E58-B76F-42E1-BC98-8A4AF11FE7BD}</ProjectGuid>
+    <ProjectGuid>{D7133323-E2DF-492B-A979-3199160145EA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Animation1</RootNamespace>
-    <AssemblyName>Animation1</AssemblyName>
+    <RootNamespace>BT_dotNet</RootNamespace>
+    <AssemblyName>BT_dotNet</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,10 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shape.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

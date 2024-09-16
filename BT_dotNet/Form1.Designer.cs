@@ -1,4 +1,4 @@
-﻿namespace Test
+﻿namespace BT_dotNet
 {
     partial class Form1
     {
