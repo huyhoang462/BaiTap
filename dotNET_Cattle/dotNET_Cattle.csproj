@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\AnimalAccess.cs" />
+    <Compile Include="DAL\DB_Access.cs" />
+    <Compile Include="Object\Cow.cs" />
+    <Compile Include="Object\Goat.cs" />
+    <Compile Include="Object\Sheep.cs" />
     <Compile Include="Presentation\Screen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,7 +60,7 @@
     <Compile Include="Object\Cattle.cs" />
     <Compile Include="Presentation\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Presentation\Form1.resx">
+    <EmbeddedResource Include="Presentation\Screen.resx">
       <DependentUpon>Screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
