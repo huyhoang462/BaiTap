@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tuan3_LinQ", "tuan3_LinQ\tu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tuan1_ADO", "tuan1_ADO\tuan1_ADO.csproj", "{BDD51B4D-CBCD-4741-BA8B-9E0E195B5628}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tuan4_ASP_MVC_Product", "tuan4_ASP_MVC_Product\tuan4_ASP_MVC_Product.csproj", "{B30CAE9B-E29E-4CC3-A0CC-CAF97F3A4865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BDD51B4D-CBCD-4741-BA8B-9E0E195B5628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDD51B4D-CBCD-4741-BA8B-9E0E195B5628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDD51B4D-CBCD-4741-BA8B-9E0E195B5628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30CAE9B-E29E-4CC3-A0CC-CAF97F3A4865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30CAE9B-E29E-4CC3-A0CC-CAF97F3A4865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30CAE9B-E29E-4CC3-A0CC-CAF97F3A4865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30CAE9B-E29E-4CC3-A0CC-CAF97F3A4865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
